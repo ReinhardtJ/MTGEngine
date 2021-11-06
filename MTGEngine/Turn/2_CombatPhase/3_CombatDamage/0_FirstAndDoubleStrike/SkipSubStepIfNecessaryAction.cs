@@ -1,4 +1,7 @@
-﻿namespace MTGEngine.Turn._2_CombatPhase._3_CombatDamage._0_FirstAndDoubleStrike
+﻿using System;
+using Action = MTGEngine.Turn.BaseClasses.Action;
+
+namespace MTGEngine.Turn._2_CombatPhase._3_CombatDamage._0_FirstAndDoubleStrike
 {
     public class SkipSubStepIfNecessaryAction: Action
     {
@@ -8,7 +11,7 @@
 
         public override void PerformAction()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("Skip Sub Step If Necessary Action");
         }
     }
 }

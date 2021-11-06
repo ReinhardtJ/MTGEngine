@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using MTGEngine.Turn.BaseClasses;
 
 namespace MTGEngine.Turn._2_CombatPhase._1_DeclareAttackers
 {

@@ -1,4 +1,7 @@
-﻿namespace MTGEngine.Turn._2_CombatPhase._3_CombatDamage._1_RegularCombat
+﻿using System;
+using Action = MTGEngine.Turn.BaseClasses.Action;
+
+namespace MTGEngine.Turn._2_CombatPhase._3_CombatDamage._1_RegularCombat
 {
     public class AssignRegularCombatDamageToPlayersAction : Action
     {
@@ -8,7 +11,7 @@
 
         public override void PerformAction()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("Assign regular combat damage to players action");
         }
     }
 }

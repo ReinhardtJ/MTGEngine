@@ -1,4 +1,7 @@
-﻿namespace MTGEngine.Turn._2_CombatPhase._2_DeclareBlockers
+﻿using System;
+using Action = MTGEngine.Turn.BaseClasses.Action;
+
+namespace MTGEngine.Turn._2_CombatPhase._2_DeclareBlockers
 {
     public class DeclareBlockersAction : Action
     {
@@ -8,7 +11,7 @@
 
         public override void PerformAction()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("Declare Blockers Action");
         }
     }
 }

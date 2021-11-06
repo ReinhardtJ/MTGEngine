@@ -1,4 +1,7 @@
-﻿namespace MTGEngine.Turn.CommonActions
+﻿using System;
+using Action = MTGEngine.Turn.BaseClasses.Action;
+
+namespace MTGEngine.Turn.CommonActions
 {
     public class EmptyManaPoolAction : Action
     {
@@ -8,7 +11,7 @@
 
         public override void PerformAction()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("Empty Mana Pool Action");
         }
     }
 }

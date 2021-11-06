@@ -1,4 +1,8 @@
-﻿namespace MTGEngine.Turn._2_CombatPhase._1_DeclareAttackers
+﻿using System;
+using System.Threading.Channels;
+using Action = MTGEngine.Turn.BaseClasses.Action;
+
+namespace MTGEngine.Turn._2_CombatPhase._1_DeclareAttackers
 {
     public class TriggerDeclareAttackersAbilitiesAction: Action
     {
@@ -8,7 +12,7 @@
 
         public override void PerformAction()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("Trigger Declare Attackers Abilities Action");
         }
     }
 }

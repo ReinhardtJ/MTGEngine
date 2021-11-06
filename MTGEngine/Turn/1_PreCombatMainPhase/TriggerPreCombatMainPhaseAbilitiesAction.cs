@@ -1,4 +1,7 @@
-﻿namespace MTGEngine.Turn._1_PrecombatMainPhase
+﻿using System;
+using Action = MTGEngine.Turn.BaseClasses.Action;
+
+namespace MTGEngine.Turn._1_PrecombatMainPhase
 {
     public class TriggerPreCombatMainPhaseAbilitiesAction: Action
     {
@@ -8,7 +11,7 @@
 
         public override void PerformAction()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("Trigger Pre Combat Main Phase Abilities Action");
         }
     }
 }

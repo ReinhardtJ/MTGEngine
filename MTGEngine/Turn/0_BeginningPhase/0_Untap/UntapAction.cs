@@ -1,4 +1,7 @@
-﻿namespace MTGEngine.Turn._0_BeginningPhase._0_Untap
+﻿using System;
+using Action = MTGEngine.Turn.BaseClasses.Action;
+
+namespace MTGEngine.Turn._0_BeginningPhase._0_Untap
 {
     public class UntapAction: Action
     {
@@ -8,7 +11,8 @@
 
         public override void PerformAction()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("Untap Action");
+
         }
     }
 }

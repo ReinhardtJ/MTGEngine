@@ -16,20 +16,20 @@ using MTGEngine.Turn._3_PostCombatMainPhase;
 using MTGEngine.Turn._4_EndingPhase;
 using MTGEngine.Turn._4_EndingPhase._0_End;
 using MTGEngine.Turn._4_EndingPhase._1_Cleanup;
+using MTGEngine.Turn.BaseClasses;
 using MTGEngine.Turn.CommonActions;
 
 namespace MTGEngine.Turn
 {
     public class TurnFactory
     {
-        private Game _game;
-        private Turn _baseTurn;
-        public Turn BaseTurn => _baseTurn;
-        
+        private readonly Game _game;
+        public Turn BaseTurn { get; }
+
         public TurnFactory(Game game)
         {
             _game = game;
-            _baseTurn = BuildTurn();
+            BaseTurn = BuildTurn();
         }
         
         private Turn BuildTurn()

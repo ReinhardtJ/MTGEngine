@@ -6,7 +6,7 @@ namespace MTGEngine
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            DIContainer.Inject();
         }
     }
 }

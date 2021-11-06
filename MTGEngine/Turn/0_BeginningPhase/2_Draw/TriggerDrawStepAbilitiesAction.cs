@@ -1,4 +1,7 @@
-﻿namespace MTGEngine.Turn._0_BeginningPhase._2_Draw
+﻿using System;
+using Action = MTGEngine.Turn.BaseClasses.Action;
+
+namespace MTGEngine.Turn._0_BeginningPhase._2_Draw
 {
     public class TriggerDrawStepAbilitiesAction : Action
     {
@@ -8,7 +11,7 @@
 
         public override void PerformAction()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("Trigger Draw Step Abilities Action");
         }
     }
 }

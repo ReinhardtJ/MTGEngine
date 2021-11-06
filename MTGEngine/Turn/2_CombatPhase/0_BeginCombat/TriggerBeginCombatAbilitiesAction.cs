@@ -1,4 +1,7 @@
-﻿namespace MTGEngine.Turn._2_CombatPhase._0_BeginCombat
+﻿using System;
+using Action = MTGEngine.Turn.BaseClasses.Action;
+
+namespace MTGEngine.Turn._2_CombatPhase._0_BeginCombat
 {
     public class TriggerBeginCombatAbilitiesAction: Action
     {
@@ -8,7 +11,7 @@
 
         public override void PerformAction()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("Trigger Begin Combat Abilities Action");
         }
     }
 }

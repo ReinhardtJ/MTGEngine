@@ -1,4 +1,7 @@
-﻿namespace MTGEngine.Turn._4_EndingPhase._0_End
+﻿using System;
+using Action = MTGEngine.Turn.BaseClasses.Action;
+
+namespace MTGEngine.Turn._4_EndingPhase._0_End
 {
     public class TriggerEndStepAbilitiesAction: Action
     {
@@ -8,7 +11,7 @@
 
         public override void PerformAction()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("Trigger End Step Abilities Action");
         }
     }
 }

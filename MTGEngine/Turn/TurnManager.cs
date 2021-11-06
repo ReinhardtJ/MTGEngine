@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+﻿using System;
 
 namespace MTGEngine.Turn
 {
@@ -8,10 +8,7 @@ namespace MTGEngine.Turn
         private readonly TurnFactory _turnFactory;
 
 
-        public TurnManager(
-
-            Game game,
-            TurnFactory turnFactory)
+        public TurnManager(Game game, TurnFactory turnFactory)
         {
             _game = game;
             _turnFactory = turnFactory;
@@ -22,6 +19,8 @@ namespace MTGEngine.Turn
             // turn loop
             while (true)
             {
+                Console.WriteLine("Next Step:");
+                Console.ReadLine();
                 _turnFactory.BaseTurn.TakeTurn();
                 _game.UpdateActivePlayer();
             }

@@ -19,6 +19,11 @@ namespace MTGEngine
             _activePlayerIndex = (_activePlayerIndex + 1) % _players.Count;
             _activePlayer = _players[_activePlayerIndex];
         }
+        
+        public Player GetActivePlayer()
+        {
+            return _activePlayer;
+        }
 
     }
 }
