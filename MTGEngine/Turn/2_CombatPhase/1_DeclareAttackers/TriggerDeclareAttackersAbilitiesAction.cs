@@ -12,7 +12,7 @@ namespace MTGEngine.Turn._2_CombatPhase._1_DeclareAttackers
 
         public override void PerformAction()
         {
-            Console.WriteLine("Trigger Declare Attackers Abilities Action");
+            Console.WriteLine("--- Trigger Declare Attackers Abilities Action");
         }
     }
 }

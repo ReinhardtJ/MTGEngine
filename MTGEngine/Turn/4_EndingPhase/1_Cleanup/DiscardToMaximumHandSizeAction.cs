@@ -11,7 +11,8 @@ namespace MTGEngine.Turn._4_EndingPhase._1_Cleanup
 
         public override void PerformAction()
         {
-            Console.WriteLine("Discard to maximum hand size action");
+            Console.WriteLine("-- Cleanup Step");
+            Console.WriteLine("--- Discard to maximum hand size action");
         }
     }
 }

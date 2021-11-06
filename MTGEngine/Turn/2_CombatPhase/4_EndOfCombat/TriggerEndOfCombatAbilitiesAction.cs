@@ -11,7 +11,8 @@ namespace MTGEngine.Turn._2_CombatPhase._4_EndOfCombat
 
         public override void PerformAction()
         {
-            Console.WriteLine("Trigger End of Combat Abilities Action");
+            Console.WriteLine("-- End of Combat Step");
+            Console.WriteLine("--- Trigger End of Combat Abilities Action");
         }
     }
 }

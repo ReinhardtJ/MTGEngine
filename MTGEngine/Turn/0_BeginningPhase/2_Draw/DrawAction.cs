@@ -12,7 +12,8 @@ namespace MTGEngine.Turn._0_BeginningPhase._2_Draw
 
         public override void PerformAction()
         {
-            Console.WriteLine("Draw Action");
+            Console.WriteLine("-- Draw Step");
+            Console.WriteLine("--- Draw Action");
         }
     }
 }

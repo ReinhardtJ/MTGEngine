@@ -11,7 +11,7 @@ namespace MTGEngine.Turn._2_CombatPhase._4_EndOfCombat
 
         public override void PerformAction()
         {
-            Console.WriteLine("Remove Until End of Combat Effects Action");
+            Console.WriteLine("--- Remove Until End of Combat Effects Action");
         }
     }
 }

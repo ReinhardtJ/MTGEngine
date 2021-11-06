@@ -11,7 +11,8 @@ namespace MTGEngine.Turn._2_CombatPhase._1_DeclareAttackers
 
         public override void PerformAction()
         {
-            Console.WriteLine("Declare Attackers Action");
+            Console.WriteLine("-- Declare Attackers Step");
+            Console.WriteLine("--- Declare Attackers Action");
         }
     }
 }

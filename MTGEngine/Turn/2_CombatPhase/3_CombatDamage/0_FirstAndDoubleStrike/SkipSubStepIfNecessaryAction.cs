@@ -11,7 +11,8 @@ namespace MTGEngine.Turn._2_CombatPhase._3_CombatDamage._0_FirstAndDoubleStrike
 
         public override void PerformAction()
         {
-            Console.WriteLine("Skip Sub Step If Necessary Action");
+            Console.WriteLine("-- Combat Damage (First & Double Strike Sub-Step)");
+            Console.WriteLine("--- Skip Sub Step If Necessary Action");
         }
     }
 }

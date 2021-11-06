@@ -11,7 +11,7 @@ namespace MTGEngine.Turn._4_EndingPhase._1_Cleanup
 
         public override void PerformAction()
         {
-            Console.WriteLine("Trigger State Based and Cleanup Abilities Action");
+            Console.WriteLine("--- Trigger State Based and Cleanup Abilities Action");
         }
     }
 }

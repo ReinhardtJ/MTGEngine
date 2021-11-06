@@ -11,7 +11,8 @@ namespace MTGEngine.Turn._3_PostCombatMainPhase
 
         public override void PerformAction()
         {
-            Console.WriteLine("Trigger Post Combat Main Phase Abilities Action");
+            Console.WriteLine("- Post Combat Main Phase");
+            Console.WriteLine("--- Trigger Post Combat Main Phase Abilities Action");
         }
     }
 }

@@ -11,7 +11,8 @@ namespace MTGEngine.Turn._2_CombatPhase._3_CombatDamage._1_RegularCombat
 
         public override void PerformAction()
         {
-            Console.WriteLine("Assign regular combat damage to blockers action");
+            Console.WriteLine("-- Combat Damage (Regular Combat Damage Sub-Step)");
+            Console.WriteLine("--- Assign regular combat damage to blockers action");
         }
     }
 }

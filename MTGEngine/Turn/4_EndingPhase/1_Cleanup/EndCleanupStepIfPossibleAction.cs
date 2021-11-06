@@ -11,7 +11,7 @@ namespace MTGEngine.Turn._4_EndingPhase._1_Cleanup
 
         public override void PerformAction()
         {
-            Console.WriteLine("End Cleanup Step if possible action");
+            Console.WriteLine("--- End Cleanup Step if possible action");
         }
     }
 }

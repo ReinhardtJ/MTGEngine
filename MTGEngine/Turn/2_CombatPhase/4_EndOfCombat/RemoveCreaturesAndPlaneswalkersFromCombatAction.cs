@@ -11,7 +11,7 @@ namespace MTGEngine.Turn._2_CombatPhase._4_EndOfCombat
 
         public override void PerformAction()
         {
-            Console.WriteLine("Remove Creatures And Planeswalkers from Combat Action");
+            Console.WriteLine("--- Remove Creatures And Planeswalkers from Combat Action");
         }
     }
 }

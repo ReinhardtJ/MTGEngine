@@ -11,7 +11,7 @@ namespace MTGEngine.Turn.CommonActions
 
         public override void PerformAction()
         {
-            Console.WriteLine("Empty Mana Pool Action");
+            Console.WriteLine("--- Empty Mana Pool Action");
         }
     }
 }

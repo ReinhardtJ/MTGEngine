@@ -11,7 +11,7 @@ namespace MTGEngine.Turn._2_CombatPhase._2_DeclareBlockers
 
         public override void PerformAction()
         {
-            Console.WriteLine("Trigger Declare Blockers Abilities Action");
+            Console.WriteLine("--- Trigger Declare Blockers Abilities Action");
         }
     }
 }

@@ -11,7 +11,7 @@ namespace MTGEngine.Turn._4_EndingPhase._1_Cleanup
 
         public override void PerformAction()
         {
-            Console.WriteLine("Remove Damage and Turn effects action");
+            Console.WriteLine("--- Remove Damage and Turn effects action");
         }
     }
 }

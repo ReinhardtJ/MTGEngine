@@ -11,7 +11,7 @@ namespace MTGEngine.Turn._2_CombatPhase._3_CombatDamage.CommonActions
 
         public override void PerformAction()
         {
-            Console.WriteLine("Deal combat Damage action");
+            Console.WriteLine("--- Deal combat Damage action");
         }
     }
 }

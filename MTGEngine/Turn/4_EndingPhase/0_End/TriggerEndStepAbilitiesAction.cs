@@ -11,7 +11,9 @@ namespace MTGEngine.Turn._4_EndingPhase._0_End
 
         public override void PerformAction()
         {
-            Console.WriteLine("Trigger End Step Abilities Action");
+            Console.WriteLine("- Ending Phase");
+            Console.WriteLine("-- End Step");
+            Console.WriteLine("---Trigger End Step Abilities Action");
         }
     }
 }

@@ -11,7 +11,9 @@ namespace MTGEngine.Turn._2_CombatPhase._0_BeginCombat
 
         public override void PerformAction()
         {
-            Console.WriteLine("Trigger Begin Combat Abilities Action");
+            Console.WriteLine("- Combat Phase");
+            Console.WriteLine("-- Beginning of Combat");
+            Console.WriteLine("--- Trigger Begin Combat Abilities Action");
         }
     }
 }

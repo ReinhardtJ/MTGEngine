@@ -11,7 +11,8 @@ namespace MTGEngine.Turn._1_PrecombatMainPhase
 
         public override void PerformAction()
         {
-            Console.WriteLine("Trigger Pre Combat Main Phase Abilities Action");
+            Console.WriteLine("- Pre Combat Main Phase");
+            Console.WriteLine("--- Trigger Pre Combat Main Phase Abilities Action");
         }
     }
 }

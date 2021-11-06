@@ -11,7 +11,7 @@ namespace MTGEngine.Turn._0_BeginningPhase._2_Draw
 
         public override void PerformAction()
         {
-            Console.WriteLine("Trigger Draw Step Abilities Action");
+            Console.WriteLine("--- Trigger Draw Step Abilities Action");
         }
     }
 }

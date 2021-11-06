@@ -11,7 +11,8 @@ namespace MTGEngine.Turn._0_BeginningPhase._1_Upkeep
 
         public override void PerformAction()
         {
-            Console.WriteLine("Trigger Upkeep Abilities Action");
+            Console.WriteLine("-- Upkeep Step");
+            Console.WriteLine("--- Trigger Upkeep Abilities Action");
         }
     }
 }

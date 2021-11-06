@@ -11,7 +11,7 @@ namespace MTGEngine.Turn._0_BeginningPhase._0_Untap
 
         public override void PerformAction()
         {
-            Console.WriteLine("Untap Action");
+            Console.WriteLine("--- Untap Action");
 
         }
     }

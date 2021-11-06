@@ -12,7 +12,9 @@ namespace MTGEngine.Turn._0_BeginningPhase._0_Untap
         public override void PerformAction()
         {
             Console.WriteLine($"Begin Turn for Player {_game.GetActivePlayer()}");
-            Console.WriteLine("Phasing Action");
+            Console.WriteLine("- Beginning Phase");
+            Console.WriteLine("-- Untap Step");
+            Console.WriteLine("--- Phasing Action");
         }
     }
 }

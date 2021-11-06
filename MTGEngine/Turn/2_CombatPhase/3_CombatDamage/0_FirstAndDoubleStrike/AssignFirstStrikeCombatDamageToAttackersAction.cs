@@ -11,7 +11,7 @@ namespace MTGEngine.Turn._2_CombatPhase._3_CombatDamage._0_FirstAndDoubleStrike
 
         public override void PerformAction()
         {
-            Console.WriteLine("Assign First Strike Combat Damage To Attackers Action");
+            Console.WriteLine("--- Assign First Strike Combat Damage To Attackers Action");
         }
     }
 }

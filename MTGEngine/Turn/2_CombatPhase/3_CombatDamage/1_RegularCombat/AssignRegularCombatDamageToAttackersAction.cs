@@ -11,7 +11,7 @@ namespace MTGEngine.Turn._2_CombatPhase._3_CombatDamage._1_RegularCombat
 
         public override void PerformAction()
         {
-            Console.WriteLine("Assign regular combat damage to attackers action");
+            Console.WriteLine("--- Assign regular combat damage to attackers action");
         }
     }
 }

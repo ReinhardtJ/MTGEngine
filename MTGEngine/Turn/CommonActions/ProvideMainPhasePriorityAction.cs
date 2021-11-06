@@ -11,7 +11,7 @@ namespace MTGEngine.Turn.CommonActions
 
         public override void PerformAction()
         {
-            Console.WriteLine("Provide Main Phase Priority Action");
+            Console.WriteLine("--- Provide Main Phase Priority Action");
         }
     }
 }
