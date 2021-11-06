@@ -1,8 +1,8 @@
 ﻿namespace MTGEngine.Turn.CommonActions
 {
-    public class ProvideSorceryPriorityAction: Action
+    public class ProvideMainPhasePriorityAction: Action
     {
-        public ProvideSorceryPriorityAction(Game game) : base(game)
+        public ProvideMainPhasePriorityAction(Game game) : base(game)
         {
         }
 

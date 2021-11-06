@@ -1,8 +1,8 @@
 ﻿namespace MTGEngine.Turn._4_EndingPhase._1_Cleanup
 {
-    public class RepeatCleanupStepIfNecessaryAction: Action
+    public class RepeatCleanupStepAction: Action
     {
-        public RepeatCleanupStepIfNecessaryAction(Game game) : base(game)
+        public RepeatCleanupStepAction(Game game) : base(game)
         {
         }
 
