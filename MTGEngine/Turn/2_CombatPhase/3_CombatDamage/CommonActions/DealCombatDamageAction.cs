@@ -1,4 +1,4 @@
-﻿namespace MTGEngine.Turn._2_CombatPhase._3_CombatDamage._0_FirstAndDoubleStrike
+﻿namespace MTGEngine.Turn._2_CombatPhase._3_CombatDamage.CommonActions
 {
     public class DealCombatDamageAction : Action
     {
