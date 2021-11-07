@@ -8,8 +8,8 @@ namespace MTGEngine
     {
         public static void Inject()
         {
-            Player p1 = new Player();
-            Player p2 = new Player();
+            Player p1 = new Player(1);
+            Player p2 = new Player(2);
             var players = new List<Player>() { p1, p2 };
             var game = new Game(players);
             TurnFactory turnFactory = new TurnFactory(game);
