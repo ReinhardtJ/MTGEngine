@@ -22,7 +22,7 @@ namespace MTGEngine.Turn
                 Console.WriteLine("Next Step:");
                 Console.ReadLine();
                 _turnFactory.BaseTurn.TakeTurn();
-                _game.UpdateActivePlayer();
+                _game.Players.UpdateActivePlayer();
             }
         }
     }

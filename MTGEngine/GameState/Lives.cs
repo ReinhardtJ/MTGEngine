@@ -1,6 +1,6 @@
 ﻿namespace MTGEngine.GameState
 {
-    public class Life
+    public class Lives
     {
         
     }

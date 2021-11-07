@@ -1,29 +1,40 @@
 ﻿using System.Collections.Generic;
+using MTGEngine.GameState;
 
 namespace MTGEngine
 {
     public class Game
     {
-        private readonly List<Player> _players;
-        private Player _activePlayer;
-        private int _activePlayerIndex;
-        public Game(List<Player> players)
+        public Players Players { get; }
+        private readonly Battlefield _battlefield;
+        private readonly Exile _exile;
+        private readonly Graveyards _graveyards;
+        private readonly Hands _hands;
+        private readonly Libraries _libraries;
+        private readonly Lives _lives;
+
+        
+        
+        public Game(Players players, 
+                    Battlefield battlefield, 
+                    Exile exile, 
+                    Graveyards graveyards, 
+                    Hands hands, 
+                    Libraries libraries, 
+                    Lives lives)
         {
-            _players = players;
-            _activePlayerIndex = 0; // TODO(Jonas): choose starting player properly later
-            _activePlayer = _players[_activePlayerIndex];
+            Players = players;
+            _battlefield = battlefield;
+            _exile = exile;
+            _graveyards = graveyards;
+            _hands = hands;
+            _libraries = libraries;
+            _lives = lives;
         }
         
-        public void UpdateActivePlayer()
-        {
-            _activePlayerIndex = (_activePlayerIndex + 1) % _players.Count;
-            _activePlayer = _players[_activePlayerIndex];
-        }
         
-        public Player GetActivePlayer()
-        {
-            return _activePlayer;
-        }
+        
+      
 
     }
 }
