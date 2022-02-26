@@ -2,7 +2,7 @@
 
 namespace MTGEngine.MagicObjects.Characteristics
 {
-    public class Color : ObjectCharacteristic
+    public class Color : Characteristic
     {
         
     }

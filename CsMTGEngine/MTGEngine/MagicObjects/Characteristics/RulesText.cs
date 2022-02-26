@@ -1,6 +1,6 @@
 ﻿namespace MTGEngine.MagicObjects.Characteristics
 {
-    public class SubType
+    public class RulesText : Characteristic
     {
         
     }

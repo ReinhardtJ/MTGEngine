@@ -1,6 +1,6 @@
 ﻿namespace MTGEngine.MagicObjects.Characteristics
 {
-    public class ManaCost : ObjectCharacteristic
+    public class Loyalty : Characteristic
     {
         
     }

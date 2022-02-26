@@ -1,6 +1,6 @@
 ﻿namespace MTGEngine.MagicObjects.Characteristics
 {
-    public class SuperType : ObjectCharacteristic
+    public class SuperType : Characteristic
     {
         
     }

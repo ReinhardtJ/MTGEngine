@@ -1,6 +1,6 @@
-﻿namespace MTGEngine.MagicObjects.Characteristics.CardTypes
+﻿namespace MTGEngine.MagicObjects.Characteristics
 {
-    public abstract class CardType : ObjectCharacteristic
+    public abstract class CardType : Characteristic
     {
     }
     

@@ -1,6 +1,6 @@
 ﻿namespace MTGEngine.MagicObjects.Characteristics
 {
-    public abstract class ObjectCharacteristic 
+    public class ManaCost : Characteristic
     {
         
     }
